@@ -10,4 +10,15 @@ body {
 html {
   font-size: 62.5%;
 }
+.app {
+  position: relative;
+}
+#about,
+#skills,
+#projects,
+#footer {
+  height: 100vh;
+}
+
 //imports
+@import './styles/nav.scss';

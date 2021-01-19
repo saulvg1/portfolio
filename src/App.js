@@ -6,8 +6,8 @@ function App() {
         <div className="links">
           <ul>
             <a href="#about">About</a>
-            <a href="#about">Skills</a>
-            <a href="#about">projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">projects</a>
             <a href="#footer">Contact</a>
           </ul>
         </div>
@@ -15,10 +15,10 @@ function App() {
       {/* <div className="return">
         <a href="#about">Return To top</a>
       </div> */}
-      <section id="about"></section>
-      <section id="skills"></section>
-      <section id="projects"></section>
-      <footer id="footer"></footer>
+      <section id="about">This is the about section</section>
+      <section id="skills">This is the skills section</section>
+      <section id="projects">This is the projects section</section>
+      <footer id="footer"> this is the footer </footer>
     </div>
   );
 }
