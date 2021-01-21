@@ -1,3 +1,41 @@
 #about {
-  background: blue;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  .aboutMe {
+    display: flex;
+    flex-flow: row wrap;
+    .aboutInfo {
+      flex: 2 1 40rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 3rem;
+      h1 {
+        font-size: 4rem;
+        font-family: 'Roboto Mono', monospace;
+        margin-bottom: 2rem;
+        width: 100%;
+        text-align: center;
+      }
+
+      p {
+        font-size: 2rem;
+        padding: 2rem;
+        font-family: 'Montserrat', sans-serif;
+      }
+    }
+    .aboutImage {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1 1 40rem;
+      img {
+        object-fit: cover;
+        width: 80%;
+        border-radius: 50%;
+      }
+    }
+  }
 }

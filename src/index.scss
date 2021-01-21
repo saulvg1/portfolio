@@ -11,20 +11,17 @@ body {
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  background-color: whitesmoke;
 }
 .app {
   position: relative;
-}
-#about,
-#projects,
-#contact {
-  height: 100vh;
 }
 
 //imports
 @import './styles/nav.scss';
 @import './styles/scrollButton.scss';
 @import './styles/about.scss';
+@import './styles/skills.scss';
 @import './styles/projects.scss';
 @import './styles/contact.scss';
 @import './styles/footer.scss';
