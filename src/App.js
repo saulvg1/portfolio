@@ -1,8 +1,12 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronCircleUp } from '@fortawesome/free-solid-svg-icons';
 function App() {
   return (
     <div className="App">
       <div className="scrollButton">
-        <a href="#about">Top</a>
+        <a href="#about">
+          <FontAwesomeIcon icon={faChevronCircleUp} />
+        </a>
       </div>
       <nav id="nav">
         <div className="name">Saul Vega</div>

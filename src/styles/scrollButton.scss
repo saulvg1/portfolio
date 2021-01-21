@@ -2,18 +2,9 @@
   position: fixed;
   bottom: 10%;
   right: 5%;
-  height: 5rem;
-  width: 5rem;
   z-index: 5;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   a {
-    font-size: 3rem;
-    text-decoration: none;
-    text-align: center;
-    justify-self: center;
-    align-self: center;
+    font-size: 5rem;
+    color: #fff;
   }
 }
