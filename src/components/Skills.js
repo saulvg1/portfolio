@@ -3,7 +3,6 @@ import Skill from '../components/Skill.js';
 import skillsData from '../data/data.js';
 
 export default function Skills() {
-  const skills = skillsData;
   return (
     <div className="skills">
       <div className="skillsInfo">
@@ -11,7 +10,7 @@ export default function Skills() {
         <div className="underline"></div>
       </div>
       <div className="skillsCollection">
-        {skills.map((skill, index) => {
+        {skillsData.map((skill, index) => {
           return (
             <Skill
               className="skill"
