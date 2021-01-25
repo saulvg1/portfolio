@@ -1,7 +1,7 @@
 #about {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   .aboutMe {
     display: flex;
     flex-flow: row wrap;

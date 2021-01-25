@@ -1,6 +1,6 @@
 //component imports
 import Skill from '../components/Skill.js';
-import skillsData from '../data/data.js';
+import skillsData from '../data/skillData.js';
 
 export default function Skills() {
   return (

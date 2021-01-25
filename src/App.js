@@ -12,9 +12,9 @@ function App() {
       <Nav />
       <ScrollButton />
       <About />
-      {/* <Projects />
-      <Contact />
-      <Footer /> */}
+      <Projects />
+      {/* <Contact /> */}
+      {/* <Footer />  */}
     </div>
   );
 }
