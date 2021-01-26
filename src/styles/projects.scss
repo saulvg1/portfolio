@@ -1,11 +1,145 @@
 #projects {
   min-height: 100vh;
-  background: red;
-}
-.projectsContainer,
-.carouselContainer {
-  height: 100%;
-}
-.carouselContainer {
-  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 1s ease-in-out;
+
+  .projectInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      text-align: center;
+      font-size: 6rem;
+      margin: 4rem;
+    }
+    .underline {
+      border-bottom: 2px solid black;
+      width: 70%;
+    }
+  }
+  .projectsContainer {
+    margin: 5rem;
+    padding: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .rec-dot {
+      height: 1.8rem;
+      width: 1.8rem;
+    }
+    .carouselContainer {
+      width: 75%;
+      height: 600px;
+
+      .rec-item-wrapper {
+        height: 50vh;
+
+        .projectItem {
+          width: 100%;
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+
+          img {
+            width: 100%;
+
+            object-fit: cover;
+          }
+          h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            font-size: 5rem;
+            font-weight: bold;
+            text-align: center;
+            z-index: 5;
+            transition: opacity 1s ease-in-out;
+            background-color: rgb(154, 148, 241);
+            border-radius: 20px;
+          }
+          .projectInfoContainer {
+            display: flex;
+            opacity: 0;
+            position: absolute;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            transition: opacity 1s ease-in-out;
+            background-color: rgb(154, 148, 241);
+            height: 100%;
+            width: 100%;
+            h2 {
+              color: white;
+              text-align: center;
+              font-size: 4rem;
+              color: black;
+            }
+            .underline {
+              border-bottom: 2px solid black;
+              width: 70%;
+            }
+            p {
+              width: 75%;
+              font-size: 3rem;
+              text-align: center;
+              color: white;
+            }
+            h4 {
+              font-size: 3rem;
+              font-weight: bold;
+              color: white;
+              text-align: center;
+              span {
+                font-size: 2rem;
+              }
+            }
+            .links {
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              font-size: 5rem;
+              width: 50%;
+              .link {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                span {
+                  font-size: 3rem;
+                  font-weight: bold;
+                }
+                svg {
+                  color: white;
+                }
+                svg:hover {
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+      }
+      .rec-item-wrapper:hover {
+        h1 {
+          opacity: 0;
+          transition: opacity 1s ease-in-out;
+        }
+        .projectInfoContainer {
+          transition: opacity 1s ease-in-out;
+          display: flex;
+          opacity: 1;
+        }
+      }
+    }
+  }
 }
