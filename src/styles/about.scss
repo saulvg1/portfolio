@@ -24,6 +24,7 @@
         font-size: 2rem;
         padding: 2rem;
         font-family: 'Montserrat', sans-serif;
+        max-width: 1000px;
       }
     }
     .aboutImage {
@@ -33,7 +34,7 @@
       flex: 1 1 40rem;
       img {
         object-fit: cover;
-        width: 80%;
+        width: 60%;
         border-radius: 50%;
       }
     }

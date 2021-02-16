@@ -8,10 +8,7 @@ const ProjectsItem = ({ name, image, url, gitUrl, description, tech }) => {
       <img src={image} alt={name} />
       <h1>{name}</h1>
       <div className="projectInfoContainer">
-        <h2>About this project</h2>
-        <div className="underline"></div>
         <p>{description}</p>
-
         <h4>
           Tech Used: <span>{tech}</span>
         </h4>
