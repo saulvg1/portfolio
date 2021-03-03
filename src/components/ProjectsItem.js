@@ -10,7 +10,7 @@ const ProjectsItem = ({ name, image, url, gitUrl, description, tech }) => {
       <div className="projectInfoContainer">
         <p>{description}</p>
         <h4>
-          Tech Used: <span>{tech}</span>
+          <span>{tech}</span>
         </h4>
         <div className="links">
           <div className="link">

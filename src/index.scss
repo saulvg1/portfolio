@@ -11,17 +11,20 @@ body {
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  background-color: whitesmoke;
+  background-color: #e7ecef;
   font-family: 'Montserrat', sans-serif;
 }
 .app {
   position: relative;
 }
+//page style imports
+@import './styles/about.scss';
+@import './styles/projects.scss';
+@import './styles/contact.scss';
 
-//imports
+//component style imports
 @import './styles/nav.scss';
 @import './styles/scrollButton.scss';
-@import './styles/about.scss';
-@import './styles/skills.scss';
-@import './styles/projects.scss';
 @import './styles/footer.scss';
+@import './styles/skills.scss';
+@import './styles/messageModal.scss';

@@ -4,7 +4,6 @@ const Nav = () => {
   return (
     <div>
       <nav id="nav">
-        <div className="name">Saul Vega</div>
         <div className="links">
           <ul>
             <a href="#about">About</a>

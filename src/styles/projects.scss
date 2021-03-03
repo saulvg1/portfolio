@@ -5,19 +5,21 @@
   flex-direction: column;
   align-items: center;
   transition: all 1s ease-in-out;
-  margin: 10rem 2rem 0 2rem;
+  margin: 10rem 0 0 0;
 
   .projectInfo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 
     h1 {
       text-align: center;
       font-size: 6rem;
+      color: #274c77;
     }
     .underline {
-      border-bottom: 2px solid black;
+      border-bottom: 2px solid #274c77;
       width: 60%;
     }
   }
@@ -28,19 +30,19 @@
     flex-direction: column;
     align-items: center;
     .rec-arrow-left {
-      background-color: rgba(66, 154, 255, 1);
+      background-color: #a3cef1;
       color: black;
     }
     .rec-arrow-left:hover {
-      background-color: #006dcb;
+      background-color: #274c77;
       color: white;
     }
     .rec-arrow-right {
-      background-color: rgba(66, 154, 255, 1);
+      background-color: #a3cef1;
       color: black;
     }
     .rec-arrow-right:hover {
-      background-color: #006dcb;
+      background-color: #274c77;
       color: white;
     }
     .rec-dot {
@@ -48,13 +50,13 @@
       width: 1.8rem;
     }
     .rec-dot:focus {
-      border-color: #006dcb;
+      border-color: #274c77;
     }
     .rec-dot:hover {
-      border-color: #006dcb;
+      border-color: #274c77;
     }
     .rec-dot_active {
-      background-color: #006dcb;
+      background-color: #274c77;
     }
     .guuruq:hover,
     .guuruq:focus {
@@ -97,8 +99,9 @@
             font-weight: bold;
             text-align: center;
             z-index: 5;
-            transition: opacity 1s ease-in-out;
-            background-color: rgb(107, 176, 255);
+            transition: opacity 0.5s ease-in-out;
+            background-color: #e7ecef;
+            color: #274c77;
             border-radius: 20px;
           }
           .projectInfoContainer {
@@ -109,8 +112,8 @@
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-            transition: opacity 1s ease-in-out;
-            background-color: rgb(107, 176, 255);
+            transition: opacity 0.5s ease-in-out;
+            background-color: #8b8c89;
             height: 100%;
             width: 100%;
 
@@ -122,12 +125,12 @@
               width: 75%;
               font-size: 3rem;
               text-align: left;
-              color: white;
+              color: #a3cef1;
             }
             h4 {
               font-size: 3rem;
               font-weight: bold;
-              color: white;
+              color: #a3cef1;
               text-align: center;
               span {
                 font-size: 2rem;
@@ -140,7 +143,7 @@
               font-size: 5rem;
               width: 50%;
               .link {
-                display: flex;
+                display: fle mx;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
@@ -148,10 +151,12 @@
                 span {
                   font-size: 3rem;
                   font-weight: bold;
-                  color: white;
+                  color: #e7ecef;
+                  transition: all 0.25s ease-in;
                 }
                 svg {
-                  color: white;
+                  color: #e7ecef;
+                  transition: all 0.25s ease-in;
                 }
               }
               .link:hover {
@@ -169,10 +174,10 @@
       .rec-item-wrapper:hover {
         h1 {
           opacity: 0;
-          transition: opacity 1s ease-in-out;
+          transition: opacity 0.5s ease-in-out;
         }
         .projectInfoContainer {
-          transition: opacity 1s ease-in-out;
+          transition: opacity 0.5s ease-in-out;
           display: flex;
           opacity: 1;
         }
